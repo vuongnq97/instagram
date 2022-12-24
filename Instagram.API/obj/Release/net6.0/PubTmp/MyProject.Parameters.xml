@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="FakeFacebook01" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\MyProject\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="MyProject.Models.MyDatabaseContext" description="" value="Data Source=tcp:fakefacebook01dbserver.database.windows.net,1433;Initial Catalog=fakefacebook01;User Id=vuongnq@fakefacebook01dbserver;Password=Blueking@97" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\MyProject\\obj\\Release\\net6\.0\\PubTmp\\EFSQLScripts\\MyProject\.Models\.MyDatabaseContext\.sql$" />
+  </parameter>
+</parameters>

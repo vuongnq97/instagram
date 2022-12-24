@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAjWEKl9ASFUO/tfhlhEOK8AAAAAACAAAAAAAQZgAAAAEAACAAAAA4rd2Y+tdQZc1AWtRbfyYolOMnJBKKAKTTBOqfGzw/gQAAAAAOgAAAAAIAACAAAAA1Cjh0/Gi8jCVmXsM2ePfpcCkmLRWcQNAql8teglKy14AAAACGAl5SZKbkFbrGknaxBrm0IWwOljygAKXJ6PQzxG+VAoCwwyY3dtEYqBoCIy4/JbpbsL6Ap2nO30wNlxIzzlZg+1eOiyQtYX3yhDViMCw4jLxLd0K7IxV3s21t8DqY6JVZ87C0stpvfR92nNw32BxIEy2r0CdUjKgr8xImWYr+8UAAAADRARMpKrF0sb/F1PDoCtabr2giG14VPZ47iHlHe/nfrpA3ZVSWn84c+iKgsnUsQCw2OGrnsa546Vk8rbTOZzg3</EncryptedPassword>
+    <History>False|2022-12-22T14:25:28.8938099Z;False|2022-12-22T21:21:21.8140678+07:00;False|2022-12-22T21:17:05.6585294+07:00;False|2022-12-22T21:14:16.1648547+07:00;False|2022-12-22T21:10:08.5075133+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="MyProject.Models.MyDatabaseContext">
+      <Value>Data Source=tcp:fakefacebook.database.windows.net,1433%3bInitial Catalog=fakefacebook_db%3bUser Id=vuongnq%40fakefacebook%3bPassword=Blueking%4097</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

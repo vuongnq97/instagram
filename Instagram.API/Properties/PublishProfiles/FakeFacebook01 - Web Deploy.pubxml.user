@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAjWEKl9ASFUO/tfhlhEOK8AAAAAACAAAAAAAQZgAAAAEAACAAAACwm547gHJD4axVZrf+qNLW0mR3BW9slErMNgk6BP8qPwAAAAAOgAAAAAIAACAAAAB12g6BbmSDcZ6pRJF01fjJtXJF/NQZUbiSSYZcIrCrpYAAAAC/W2Q8zqeU4nKc/id0XYuU0tmbU1TkGORpdH+6OzN6iyyCO/+s0CThkBr+mhqKfqQdROUsDlzx2vCBhBg7CJqd3UsTmZbH+0hoOUjcY2ikIsoE9ffV2iV7GlwuGS0LNbatO4v3jPxlvHqg/Iw32vfmq4JE8bhz9b8m/fecVmZgbUAAAACKOj6hnYnuSQ7k05Z+JdA9R1ya7ePK8SxFS7FjHyYyTJGo69/EFlr/9sU3Ma7v1souJVx39uRvBA6xoB1SUjJP</EncryptedPassword>
+    <History>True|2022-12-23T15:39:05.6579662Z;True|2022-12-23T22:37:03.4461381+07:00;True|2022-12-23T22:34:11.5858059+07:00;True|2022-12-23T21:44:59.5237105+07:00;True|2022-12-23T21:38:08.2966875+07:00;True|2022-12-23T21:28:08.0431469+07:00;True|2022-12-23T21:24:30.2403901+07:00;True|2022-12-23T21:21:40.1039562+07:00;True|2022-12-23T21:18:36.7049339+07:00;True|2022-12-23T21:14:24.9882413+07:00;True|2022-12-22T21:54:32.7136665+07:00;True|2022-12-22T21:35:57.7402173+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ConStr">
+      <Value>Data Source=tcp:fakefacebook01dbserver.database.windows.net,1433%3bInitial Catalog=fakefacebook01%3bUser Id=vuongnq%40fakefacebook01dbserver%3bPassword=Blueking%4097</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MyProject.Models.MyDatabaseContext">
+      <Value>Data Source=tcp:fakefacebook01dbserver.database.windows.net,1433%3bInitial Catalog=fakefacebook01%3bUser Id=vuongnq%40fakefacebook01dbserver%3bPassword=Blueking%4097</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
